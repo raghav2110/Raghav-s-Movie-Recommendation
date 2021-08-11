@@ -100,9 +100,9 @@ function App() {
               borderRadius: "0.5rem"
             }}>{""}
             <div style={{ fontSize: "Larger" }}>
-              <a style={{ textDecoration: "none", color: "white" }}>
+              <div style={{ textDecoration: "none", color: "white" }}>
                 <span style={{ fontSize: "larger" }}>{movie.name}</span>
-              </a>
+              </div>
             </div>
             <div style={{ fontWeight: "lighter" }}> Year Of Release : {movie.year} </div>
             <div style={{ fontWeight: "lighter" }}> IMDb Rating : {movie.IMDb} </div>
